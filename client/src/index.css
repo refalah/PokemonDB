@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding-top: 10px; */
+}
+
+.poke-image {
+  height: 150px;
+  width: 150px;
+}
+
+.poke-profile {
+  height: 300px;
+  width: 300px;
+  margin: 30px 0;
+}
+
+.btn-group {
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px #ccd0e8;
+  font: normal normal 400 16px "Poppins", sans-serif;
+  margin-top: 10px;
+  outline: none;
+}
+
+.items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.txt-black {
+  color: #383838 !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.heading-4 {
+  margin-top: 25px;
+}
+
+.spn {
+  padding: 20px;
+}
+
+.stacks {
+  padding-bottom: 40px ;
+}
